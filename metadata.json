@@ -1,0 +1,5 @@
+{
+  "name": "NutriFlow AI",
+  "description": "A smart calorie and macro tracker that uses Gemini AI to estimate nutritional values from natural language descriptions. Features Firebase authentication, real-time Firestore syncing, and history tracking.",
+  "requestFramePermissions": []
+}
