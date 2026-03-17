@@ -21,7 +21,9 @@ A full-stack web application that uses AI to analyze food input and provide nutr
 
 ## Screenshots
 
-*(Add screenshots here)*
+<img width="835" height="726" alt="c2aaa14ec2cd7aefa4c6a5841aeb3467" src="https://github.com/user-attachments/assets/ff2862ef-26fc-4615-8e27-fa9cbcc04c7e" />
+<img width="1103" height="911" alt="image" src="https://github.com/user-attachments/assets/3cdf8754-e834-43d1-9955-5d171c77f8b5" />
+
 
 ## Installation
 
