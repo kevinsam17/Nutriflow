@@ -1,20 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Nutrition Calculator
 
-# Run and deploy your AI Studio app
+A full-stack web application that uses AI to analyze food input and provide nutritional insights such as calories, macronutrients, and dietary breakdowns.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1NfPTj2ruHTs-VacoQAaZWfLVjarSQOq_
+- User authentication (signup/login)
+- AI-powered food analysis
+- Nutrition tracking and history
+- Persistent data storage with database
+- Real-time calculation of calories and nutrients
 
-## Run Locally
+## Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React, TypeScript, Tailwind CSS
+- **Backend:** Firebase (Firestore, Authentication)
+- **Database:** Firebase Firestore
+- **AI:** Google Gemini API (`@google/genai`)
+- **Charts:** Recharts
+- **Build Tool:** Vite
 
+## Screenshots
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+*(Add screenshots here)*
+
+## Installation
+
+```bash
+git clone https://github.com/kevinsam17/Nutriflow
+cd Nutriflow
+npm install
+```
+
+Create a `.env` file in the root with your Firebase config:
+
+```
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+Then run:
+
+```bash
+npm run dev
+```
+
+## How It Works
+
+1. Users input food items
+2. Google Gemini AI analyzes the input and returns nutritional data
+3. Calories, protein, carbs, and fat are displayed in real time
+4. Data is saved to Firestore and users can track their dietary history over time
+
+## Author
+
+Kevin Sam
+GitHub: https://github.com/kevinsam17
